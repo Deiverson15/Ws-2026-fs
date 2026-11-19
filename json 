@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Dashboard",
+        "icon": "DashboardCustomize",
+        "description":"",
+        "route": "/dashboard",
+        "order": 1,
+        "subModules": null
+    },
+    {
+        "name": "Configuracion",
+        "icon": "Settings",
+        "description": "",
+        "route": "/config",
+        "order": 2,
+        "subModules": [
+            {
+                "name":"Admin.User",
+                "route": "/config/user"
+            },
+            {
+                "name":"Restard Password",
+                "route": "/config/restart-pass"
+            }
+        ]
+    },
+    {
+        "name": "Invetario",
+        "icon": "Inventory",
+        "description": "",
+        "route": "/config/inventory",
+        "order": 3,
+        "subModules": [
+            {
+                "name":"Entrada",
+                "route": "/config/inventory-entrada"
+            },
+            {
+                "name":"Salida",
+                "route": "/config/inventory-salida"
+            }
+        ]
+    },
+    {
+        "name": "Ventas",
+        "icon": "AttachMoney",
+        "description": "",
+        "route": "/config",
+        "order": 4,
+        "subModules": [
+            {
+                "name":"Promociones",
+                "route": "/config/promociones"
+            },
+            {
+                "name":"Descuentos",
+                "route": "/config/descuentos"
+            },
+            {
+                "name":"Devoluciones",
+                "route": "/config/devoluciones"
+            },
+            {
+                "name":"Reportes",
+                "route": "/config/reportes"
+            }
+        ]
+    }
+
+]
